@@ -1,6 +1,6 @@
 const ringButtons = document.querySelectorAll('.ring-button');
 
-let productImageBase = "../images/";
+let productImageBase = "./images/";
 
 for (let i = 0; i < ringButtons.length; i++){
     const ringBtn = ringButtons[i];
